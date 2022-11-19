@@ -34,7 +34,7 @@
         tools:text="Name" />
 
     <TextView
-        android:id="@+id/tv_family_person"
+        android:id="@+id/tv_middle_name_person"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"

@@ -45,7 +45,7 @@ class DetailFragment : Fragment() {
                 }
                 binding?.tvNamePerson?.text = model?.namePerson
                 binding?.tvAgePerson?.text = model?.age.toString()
-                binding?.tvFamilyPerson?.text = model?.middleName
+                binding?.tvMiddleNamePerson?.text = model?.middleName
             }
         }
 

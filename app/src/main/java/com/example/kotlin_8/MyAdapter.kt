@@ -48,7 +48,7 @@ class MyAdapter(onItemClickListener: OnItemClickListener) :
             Glide.with(binding.ivImageUrl.context).load(celebrities.urls).into(binding.ivImageUrl)
             binding.tvNamePerson.text = celebrities.namePerson
             binding.tvAgePerson.text = celebrities.age.toString()
-            binding.tvFamily.text = celebrities.middleName
+            binding.tvMiddlePerson.text = celebrities.middleName
             itemView.tag = celebrities
         }
     }

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="#BA8383"
+    app:cardCornerRadius="50dp"
+    app:strokeColor="#A66464"
+    app:strokeWidth="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="40dp"
+            app:strokeColor="#931C1C"
+            app:strokeWidth="3dp">
+
+            <ImageView
+                android:id="@+id/iv_image_url"
+                android:layout_width="150dp"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/tv_age_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="50sp"
+                android:background="@drawable/oval"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:text="Hello" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/tv_name_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:text="Hello" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_family"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            tools:text="Hello" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

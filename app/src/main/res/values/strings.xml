@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">kotlin-8</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_url">Past url</string>
+    <string name="age_person">Age person</string>
+    <string name="middle_name">Middle name</string>
+    <string name="name_person">Name person</string>
+</resources>

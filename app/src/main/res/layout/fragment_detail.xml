@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    tools:context=".DetailFragment">
+
+    <com.google.android.material.card.MaterialCardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        app:cardCornerRadius="200dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="5dp"
+        tools:cardBackgroundColor="#685C5C">
+
+        <ImageView
+            android:id="@+id/iv_fullscreen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tv_name_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="130dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/tv_family_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:text="Middle Name" />
+
+    <TextView
+        android:id="@+id/tv_age_person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        tools:text="Age" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bnt_back_stack"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/ic_baseline_keyboard_backspace_24" />
+
+</FrameLayout>
